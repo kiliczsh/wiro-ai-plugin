@@ -1,17 +1,24 @@
-# Wiro AI Plugin v0.2.3
+# Wiro AI Plugin
 
-Author: Muhammed Kilic. Independent ChatGPT/Codex integration for the official Wiro MCP server, not affiliated with Wiro. Nine skills cover setup, model discovery, image, video, audio, task management, cost optimization, batch workflows and general model workflows.
+Independent ChatGPT/Codex integration for the official Wiro MCP server, not affiliated with Wiro. Nine skills cover setup, model discovery, image, video, audio, task management, cost optimization, batch workflows and general model workflows.
 
 ## Install in Codex
 
-Run from this repository:
+Install from the private GitHub repository using a GitHub account with repository access:
+
+```powershell
+codex plugin marketplace add git@github.com:kiliczsh/wiro-ai-plugin.git
+codex plugin add wiro-ai-plugin@wiro-local
+```
+
+Alternatively, run from a local clone:
 
 ```powershell
 codex plugin marketplace add .
 codex plugin add wiro-ai-plugin@wiro-local
 ```
 
-After publishing, use the actual repository URL instead of `.` to add the Git marketplace. Configure authentication separately through a supported secure credential form; installation alone does not confirm a working connection.
+Configure Wiro authentication separately through a supported secure credential form; installation alone does not confirm a working connection.
 
 ## Package structure
 
