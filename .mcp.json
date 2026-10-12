@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "wiro": {
+      "type": "streamable-http",
+      "url": "https://mcp.wiro.ai/v1",
+      "headers": {},
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "api_key",
+            "headerScheme": "bearer"
+          }
+        }
+      }
+    }
+  }
+}
